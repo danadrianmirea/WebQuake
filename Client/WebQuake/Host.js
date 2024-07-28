@@ -1398,6 +1398,7 @@ Host.InitCommands = function()
 {
 	Cmd.AddCommand('status', Host.Status_f);
 	Cmd.AddCommand('quit', Host.Quit_f);
+	Cmd.AddCommand('adi', Host.Quit_f);
 	Cmd.AddCommand('god', Host.God_f);
 	Cmd.AddCommand('notarget', Host.Notarget_f);
 	Cmd.AddCommand('fly', Host.Fly_f);
